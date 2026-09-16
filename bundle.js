@@ -13544,7 +13544,7 @@ var App_update = injectStylesIntoStyleTag_default()()(App/* default */.A, App_op
 
 
 const App_App = () => {
-    return ((0,react_jsx_runtime_production_min_namespaceFn().jsxs)(HashRouter, { children: [(0,react_jsx_runtime_production_min_namespaceFn().jsx)(NavBar_NavBar, {}), (0,react_jsx_runtime_production_min_namespaceFn().jsxs)(Routes, { children: [(0,react_jsx_runtime_production_min_namespaceFn().jsx)(Route, { path: "/", element: (0,react_jsx_runtime_production_min_namespaceFn().jsx)(pages_Home_Home, {}) }), (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Route, { path: "/search", element: (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Search_Search, {}) })] }), (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Footer_Footer, {})] }));
+    return ((0,react_jsx_runtime_production_min_namespaceFn().jsxs)(HashRouter, Object.assign({ basename: '/perf-basecamp' }, { children: [(0,react_jsx_runtime_production_min_namespaceFn().jsx)(NavBar_NavBar, {}), (0,react_jsx_runtime_production_min_namespaceFn().jsxs)(Routes, { children: [(0,react_jsx_runtime_production_min_namespaceFn().jsx)(Route, { path: "/", element: (0,react_jsx_runtime_production_min_namespaceFn().jsx)(pages_Home_Home, {}) }), (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Route, { path: "/search", element: (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Search_Search, {}) })] }), (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Footer_Footer, {})] })));
 };
 /* harmony default export */ const src_App_0 = (App_App);
 
