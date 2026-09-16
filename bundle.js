@@ -9312,27 +9312,27 @@ function BrowserRouter(_ref4) {
     future,
     window
   } = _ref4;
-  let historyRef = (react_production_min_namespaceFn().useRef)();
+  let historyRef = react_router_dom_dist_React.useRef();
   if (historyRef.current == null) {
-    historyRef.current = createBrowserHistory({
+    historyRef.current = dist_createBrowserHistory({
       window,
       v5Compat: true
     });
   }
   let history = historyRef.current;
-  let [state, setStateImpl] = (react_production_min_namespaceFn().useState)({
+  let [state, setStateImpl] = react_router_dom_dist_React.useState({
     action: history.action,
     location: history.location
   });
   let {
     v7_startTransition
   } = future || {};
-  let setState = (react_production_min_namespaceFn().useCallback)(newState => {
+  let setState = react_router_dom_dist_React.useCallback(newState => {
     v7_startTransition && dist_startTransitionImpl ? dist_startTransitionImpl(() => setStateImpl(newState)) : setStateImpl(newState);
   }, [setStateImpl, v7_startTransition]);
-  (react_production_min_namespaceFn().useLayoutEffect)(() => history.listen(setState), [history, setState]);
-  (react_production_min_namespaceFn().useEffect)(() => logV6DeprecationWarnings(future), [future]);
-  return /*#__PURE__*/(react_production_min_namespaceFn().createElement)(Router, {
+  react_router_dom_dist_React.useLayoutEffect(() => history.listen(setState), [history, setState]);
+  react_router_dom_dist_React.useEffect(() => UNSAFE_logV6DeprecationWarnings(future), [future]);
+  return /*#__PURE__*/react_router_dom_dist_React.createElement(dist_Router, {
     basename: basename,
     children: children,
     location: state.location,
@@ -9352,27 +9352,27 @@ function HashRouter(_ref5) {
     future,
     window
   } = _ref5;
-  let historyRef = react_router_dom_dist_React.useRef();
+  let historyRef = (react_production_min_namespaceFn().useRef)();
   if (historyRef.current == null) {
-    historyRef.current = dist_createHashHistory({
+    historyRef.current = createHashHistory({
       window,
       v5Compat: true
     });
   }
   let history = historyRef.current;
-  let [state, setStateImpl] = react_router_dom_dist_React.useState({
+  let [state, setStateImpl] = (react_production_min_namespaceFn().useState)({
     action: history.action,
     location: history.location
   });
   let {
     v7_startTransition
   } = future || {};
-  let setState = react_router_dom_dist_React.useCallback(newState => {
+  let setState = (react_production_min_namespaceFn().useCallback)(newState => {
     v7_startTransition && dist_startTransitionImpl ? dist_startTransitionImpl(() => setStateImpl(newState)) : setStateImpl(newState);
   }, [setStateImpl, v7_startTransition]);
-  react_router_dom_dist_React.useLayoutEffect(() => history.listen(setState), [history, setState]);
-  react_router_dom_dist_React.useEffect(() => UNSAFE_logV6DeprecationWarnings(future), [future]);
-  return /*#__PURE__*/react_router_dom_dist_React.createElement(dist_Router, {
+  (react_production_min_namespaceFn().useLayoutEffect)(() => history.listen(setState), [history, setState]);
+  (react_production_min_namespaceFn().useEffect)(() => logV6DeprecationWarnings(future), [future]);
+  return /*#__PURE__*/(react_production_min_namespaceFn().createElement)(Router, {
     basename: basename,
     children: children,
     location: state.location,
@@ -13544,7 +13544,7 @@ var App_update = injectStylesIntoStyleTag_default()()(App/* default */.A, App_op
 
 
 const App_App = () => {
-    return ((0,react_jsx_runtime_production_min_namespaceFn().jsxs)(BrowserRouter, Object.assign({ basename: '/perf-basecamp' }, { children: [(0,react_jsx_runtime_production_min_namespaceFn().jsx)(NavBar_NavBar, {}), (0,react_jsx_runtime_production_min_namespaceFn().jsxs)(Routes, { children: [(0,react_jsx_runtime_production_min_namespaceFn().jsx)(Route, { path: "/", element: (0,react_jsx_runtime_production_min_namespaceFn().jsx)(pages_Home_Home, {}) }), (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Route, { path: "/search", element: (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Search_Search, {}) })] }), (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Footer_Footer, {})] })));
+    return ((0,react_jsx_runtime_production_min_namespaceFn().jsxs)(HashRouter, { children: [(0,react_jsx_runtime_production_min_namespaceFn().jsx)(NavBar_NavBar, {}), (0,react_jsx_runtime_production_min_namespaceFn().jsxs)(Routes, { children: [(0,react_jsx_runtime_production_min_namespaceFn().jsx)(Route, { path: "/", element: (0,react_jsx_runtime_production_min_namespaceFn().jsx)(pages_Home_Home, {}) }), (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Route, { path: "/search", element: (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Search_Search, {}) })] }), (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Footer_Footer, {})] }));
 };
 /* harmony default export */ const src_App_0 = (App_App);
 
