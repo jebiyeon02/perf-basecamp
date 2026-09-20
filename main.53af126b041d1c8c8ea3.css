@@ -119,7 +119,7 @@ a {
 
 @font-face {
   font-family: 'Josefin Sans';
-  src: url(9abec77018d05ba669dd.woff2) format('woff2');
+  src: url("/[object%20Module]") format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -127,7 +127,7 @@ a {
 
 @font-face {
   font-family: 'Josefin Sans';
-  src: url(d123f546a6e6222e3249.woff2) format('woff2');
+  src: url("/[object%20Module]") format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -341,4 +341,4 @@ a {
 }
 
 
-/*# sourceMappingURL=main.8e0c9a966b919dba757c.css.map*/
+/*# sourceMappingURL=main.53af126b041d1c8c8ea3.css.map*/
