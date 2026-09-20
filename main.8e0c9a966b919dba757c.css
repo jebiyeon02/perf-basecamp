@@ -117,6 +117,22 @@ a {
   --black: #131313;
 }
 
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(9abec77018d05ba669dd.woff2) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(d123f546a6e6222e3249.woff2) format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 .ZobwZVLnf8HsaWsaovuv {
   position: relative;
   width: 30rem;
@@ -325,4 +341,4 @@ a {
 }
 
 
-/*# sourceMappingURL=main.b1760cb6fb0dd5154e30.css.map*/
+/*# sourceMappingURL=main.8e0c9a966b919dba757c.css.map*/
