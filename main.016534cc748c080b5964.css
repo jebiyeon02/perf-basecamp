@@ -117,6 +117,16 @@ a {
   --black: #131313;
 }
 
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  flex: 1;
+}
+
 @font-face {
   font-family: 'Josefin Sans';
   src: url(static/JosefinSans-Regular.woff2) format('woff2');
@@ -341,4 +351,4 @@ a {
 }
 
 
-/*# sourceMappingURL=main.38648c92d9300fc88e94.css.map*/
+/*# sourceMappingURL=main.016534cc748c080b5964.css.map*/
